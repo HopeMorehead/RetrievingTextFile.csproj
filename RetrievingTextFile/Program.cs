@@ -16,17 +16,13 @@ namespace ConsoleApp5
         static void Main(string[] args)
 
         {
-           
-
             Console.WriteLine("declaration");;
             Paths(File.OpenRead(@"..\..\Text1.txt"), File.OpenRead(@"..\..\stopwords.txt"));
-           Console.ReadLine();
+            Console.ReadLine();
             Console.WriteLine("Alice");
             Paths(File.OpenRead(@"..\..\Text2.txt"), File.OpenRead(@"..\..\stopWords.txt"));
            
             Console.ReadKey();
-
-
 
         }
         //---------------------------------------------------------------------------------------------------------
